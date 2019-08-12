@@ -4,3 +4,11 @@ The script takes in user-input for the domain name linked to the server. (ie: my
 The domain is then confirmed to ensure proper spelling
 The script then procedes to install certbot-auto by Let's Encrypt
 It makes the necessary changes to the htdocs, the wp-config, and it sets up a crontab to reencrypt the site every month.
+
+
+How to install on an Ubuntu server
+ 1. sudo nano /INSTALL_SSL
+ 2. Paste the contents of this document
+ 3. Save (ctr+x then y)
+ 4. sudo chmod +x /INSTALL_SSL
+ 5. sudo /./INSTALL_SSL
